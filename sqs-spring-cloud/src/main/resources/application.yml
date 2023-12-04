@@ -1,0 +1,9 @@
+aws:
+  region: eu-central-1
+  endpoint: http://localhost:4566
+
+  sqs:
+    consumer:
+      maxMessagePerPoll: 10
+      pollTimeout: 20
+      maxConcurrentMessages: 10
