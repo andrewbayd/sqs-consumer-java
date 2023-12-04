@@ -1,4 +1,4 @@
-rootProject.name = "sqs-queue"
+rootProject.name = "sqs-consumer-java"
 include("sqs-jms")
 include("sqs-aws-sdk-client")
 include("sqs-async-consumer")
